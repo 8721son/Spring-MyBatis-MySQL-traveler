@@ -12,7 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		WebMvcConfigurer.super.addResourceHandlers(registry);
 
-		registry.addResourceHandler("/images/**").addResourceLocations("file:////home/ubuntu/Spring-MySQL-traveler/src/main/resources/images/").setCachePeriod(3600)
+		registry.addResourceHandler("/images/**").addResourceLocations("file:////home/ubuntu/Spring-MyBatis-MySQL-traveler/src/main/resources/images/").setCachePeriod(3600)
 				.resourceChain(true).addResolver(new PathResourceResolver());
 	}
 
