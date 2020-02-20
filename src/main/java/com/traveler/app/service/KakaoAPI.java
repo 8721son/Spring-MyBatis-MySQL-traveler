@@ -33,7 +33,7 @@ public class KakaoAPI {
             StringBuilder sb = new StringBuilder();
             sb.append("grant_type=authorization_code");
             sb.append("&client_id=39b7f27d609a45a4aea845e325f75e77");
-            sb.append("&redirect_uri=http://ec2-15-165-204-59.ap-northeast-2.compute.amazonaws.com:8080/user/oauth");
+            sb.append("&redirect_uri=http://ec2-52-79-240-189.ap-northeast-2.compute.amazonaws.com:8080/user/oauth");
             sb.append("&code=" + authorize_code);
             bw.write(sb.toString());
             bw.flush();

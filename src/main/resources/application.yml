@@ -10,7 +10,7 @@ spring:
       suffix: .jsp
 
   datasource:
-    url: jdbc:mysql://ec2-15-165-204-59.ap-northeast-2.compute.amazonaws.com:3306/traveler?serverTimezone=Asia/Seoul
+    url: jdbc:mysql://ec2-52-79-240-189.ap-northeast-2.compute.amazonaws.com:3306/traveler?serverTimezone=Asia/Seoul
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: traveler
     password: bitc5600

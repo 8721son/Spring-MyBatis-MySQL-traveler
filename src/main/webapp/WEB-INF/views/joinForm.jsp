@@ -26,7 +26,7 @@
 
 	<%
     String clientId = "j7_wQWuwkdYe8BCI30A2";//애플리케이션 클라이언트 아이디값";
-    String redirectURI = URLEncoder.encode("http://ec2-15-165-204-59.ap-northeast-2.compute.amazonaws.com:8080/user/callback", "UTF-8");
+    String redirectURI = URLEncoder.encode("http://ec2-52-79-240-189.ap-northeast-2.compute.amazonaws.com:8080/user/callback", "UTF-8");
     SecureRandom random = new SecureRandom();
     String state = new BigInteger(130, random).toString();
     String apiURL = "https://nid.naver.com/oauth2.0/authorize?response_type=code";
@@ -44,7 +44,7 @@
         
         <!--카카오 회원가입  -->
         <button onclick="" class="kakao-login">
-        <a href="https://kauth.kakao.com/oauth/authorize?client_id=39b7f27d609a45a4aea845e325f75e77&redirect_uri=http://ec2-15-165-204-59.ap-northeast-2.compute.amazonaws.com:8080/user/oauth&response_type=code">
+        <a href="https://kauth.kakao.com/oauth/authorize?client_id=39b7f27d609a45a4aea845e325f75e77&redirect_uri=http://ec2-52-79-240-189.ap-northeast-2.compute.amazonaws.com:8080/user/oauth&response_type=code">
             <img src="https://t1.daumcdn.net/cfile/tistory/2368144B56FFF8620A" width="18px" alt="">카카오 계정으로 회원가입</a>
         </button>
         
